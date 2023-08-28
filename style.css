@@ -1,0 +1,32 @@
+.image_box{
+  width: 60vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+.image_box h1{
+ text-align: center;
+ position: relative;
+}
+.image_box #img-01{
+ width: 60%;
+}
+.image_box #img-02{
+ width: 300px;
+ height: 300px;
+display: none;
+background: url("./wristwatch_687.8ea75ffc.jpg") no-repeat;
+background-size: 1500px 2250px;
+border: 2px solid black;
+border-radius: 50%;
+position: absolute;
+}
+
+.image_box:hover, .image_box:active{
+  cursor: zoom-in;
+  display: block;
+}
+.image_box:hover #img-02, .image_box:active #img-02{
+  display: block;
+}
+
